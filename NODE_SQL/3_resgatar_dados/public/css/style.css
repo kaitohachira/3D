@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color:  rgb(227, 244, 244);
+}
+h1{
+    text-align: center;
+}
+.form, .books-container{
+    width: 450px;
+    margin: 0 auto;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+.form-control label input{
+    padding: 5px;
+}
+
+
+/*BOOKS*/
+.books-container div{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+.bold{
+    font-weight: bold;
+}

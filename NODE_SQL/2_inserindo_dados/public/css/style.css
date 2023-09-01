@@ -1,0 +1,30 @@
+body{
+    background-color: #8294C4;
+}
+
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+.form{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.form-control label{
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.form-control label input{
+    padding: 5px;
+}
